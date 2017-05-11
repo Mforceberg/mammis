@@ -1,28 +1,17 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Mammis</title>
-
-
-<!--Bootstrap og css -->
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-</head>
-<style>
-@import url('https://fonts.googleapis.com/css?family=Roboto:100');
-</style>
-
-
+<?php
+include ("navigation.php");
+?>
 <body>
-<h1>
-Hej jeg er en tekst der ikke står med Avenir fonten
-</h1>
-<h1 id="fonttest">
-Hej jeg er en tekst der bruger Avenir Fonten!
-</h1>
-<h1 id="fonttest2">
-Hej jeg er en tekst der bruger Roboto Fonten!
-</h1>
+<div class="container-fluid full-width indexcontent">
+      <div class="row">  
+        <video id="mammisvideo" class="col-lg-10 col-md-10" autoplay loop>
+        <source src="videos/mammismovie.mp4" type="video/mp4">
+        </video>
+        <img src="images/aabningstider.jpg" alt="mammis gelatos åbningstider" class="col-lg-2 col-md-2 img-fluid" id="mammisaabning">
+    </div>
+    <div class="row">
+            <img src="images/linjebillede.jpg" alt="billede af forskellige produkter ved mammis gelato" class="col-lg-12 col-md-12 img-fluid img-full-width">
+
+    </div>
+</div>
 </body>
-</html>

@@ -1,4 +1,4 @@
-#fonttest
+/* #fonttest
 {
    font-family: Avenir; 
 }
@@ -6,4 +6,52 @@
 #fonttest2
 {
     font-family: 'Roboto', sans-serif;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+
+#mammislogo
+{
+    margin-top: -5%;
 }
+.navigation
+{
+    background-color: #e7e7de;
+}
+
+ul.nav a 
+{
+    font-family: Avenir;
+    font-weight: 200;
+    margin-top: 1.8em; 
+    text-decoration: none;
+    color: #242424;
+}
+
+.nav-link
+{
+    font-size: 180%;
+}
+
+.socikon
+{
+    margin-top: 4em;
+    max-width: 60px;
+}
+
+
+#mammisvideo
+{
+    margin-top: -240px;
+    margin-bottom: -30px;
+}
+
+.container-fluid.full-width
+{
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
