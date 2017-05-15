@@ -1,19 +1,16 @@
-/*    $("video").prop('muted', true);
-
-$(".mute-video").click(function () {
-    if ($("video").prop('muted')) {
-        $("video").prop('muted', false);
-        $(this).addClass('unmute-video');
-
-    } else {
-        $("video").prop('muted', true);
-        $(this).removeClass('unmute-video');
-    }
-    console.log($("video").prop('muted'))
-}); */
-
 var vid = document.getElementById("mammisvideo");
+var buttonClasses = document.getElementById("muteButton");
 
 function enableMute() {
-    vid.muted = true;
+ if (vid.muted === true) {
+    vid.muted = false;
+ }
+ else
+ {
+     vid.muted = true;
+ }
+    document.getElementById("muteButton").classList.toggle("unmute-video");
 }
+
+
+

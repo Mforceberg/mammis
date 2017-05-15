@@ -1,24 +1,15 @@
-/* #fonttest
-{
-   font-family: Avenir; 
-}
-
-#fonttest2
-{
-    font-family: 'Roboto', sans-serif;
-} */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 
-
-#mammislogo
-{
-    margin-top: -5%;
+.navbar {
+    margin-bottom: 0;
+    z-index:1;
 }
+
 .navigation
 {
     background-color: #e7e7de;
 }
+
 
 ul.nav a 
 {
@@ -41,11 +32,15 @@ ul.nav a
 }
 
 
+
+
 #mammisvideo
 {
+    overflow:hidden;
     padding-top: -60px;
     margin-top: -90px;
     margin-bottom: -200px;
+    z-index:-2;
 }
 
 .container-fluid.full-width
@@ -57,16 +52,23 @@ ul.nav a
 }
 
 
-
+#muteButton {
+   margin-left:0;
+    margin-top: 0;
+}
 .mute-video {
     background:url(http://cdn.flaticon.com/png/64/60750.png) no-repeat center;
-    background-size:32px;
+    background-size:42px;
     border:0;
-    width:32px;
-    height:32px;
+    width:42px;
+    height:42px;
     text-indent:-999px;
+    z-index: 2;
 }
 .unmute-video {
     background:url(http://cdn.flaticon.com/png/64/498.png) no-repeat center;
-    background-size:32px;
+    color:white;
+    background-size:42px;
+    border:0;
+    z-index: 2;
 }

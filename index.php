@@ -1,17 +1,13 @@
 <?php
 include ("navigation.php");
 ?>
+<button class="mute-video" id="muteButton" onclick="enableMute();">toggle</button> 
 
-<script src="js/script.js"></script>
-
-<body>
-<div class="container-fluid full-width indexcontent">
+<div class="full-width indexcontent">
       <div class="row">  
-        <video id="mammisvideo" class="col-lg-10 col-md-10" autoplay loop controls>
-        <source src="videos/mammismovieworking.mp4" type="video/mp4" id="myVideo">
-        </video>
-        
-        <button class="mute-video" onclick="enableMute()">toggle</button>  
+        <video id="mammisvideo" class="col-lg-10 col-md-10" autoplay loop muted>
+        <source src="videos/mammismovieworking.mp4" type="video/mp4" id="myVideo">  
+        </video>     
           
         <img src="images/aabningstider.jpg" alt="mammis gelatos åbningstider" class="col-lg-2 col-md-2 img-fluid" id="mammisaabning">
     </div>
@@ -20,4 +16,9 @@ include ("navigation.php");
 
     </div>
 </div>
+    
+<script src="js/script.js"></script>    
 </body>
+</html>
+
+

@@ -9,14 +9,14 @@
 <link href="http://localhost/styles.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="css/styles.css" type="text/css" />
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+       
 </head>
-
 <body>
 
 <!-- Navbar -->
 <nav class="navbar navbar-light active navigation">
 	<a class="navbar-brand col-lg-1" href="index.php">
-		<img src="images/farvelogo.png" alt="Mammis Gelato Logo" id="mammislogo" style="width:200px">
+		<img src="images/farvelogo.png" alt="Mammis Gelato Logo" id="mammislogo" style="height:80px">
 	</a>
 	
 	<div>
@@ -46,6 +46,5 @@
     <img src="images/facebookicon.png" href="https://www.instagram.com/mammisgelato/" alt="facebook ikon" class="col-lg-push-5 col-lg-1 socikon">
     </a>
 </nav>
-<!-- /Navbar -->
-</body>   
-</html>
+<!-- /Navbar -->   
+
