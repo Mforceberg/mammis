@@ -43,8 +43,9 @@ ul.nav a
 
 #mammisvideo
 {
-    margin-top: -240px;
-    margin-bottom: -30px;
+    padding-top: -60px;
+    margin-top: -90px;
+    margin-bottom: -200px;
 }
 
 .container-fluid.full-width
@@ -55,3 +56,17 @@ ul.nav a
     overflow-x: hidden;
 }
 
+
+
+.mute-video {
+    background:url(http://cdn.flaticon.com/png/64/60750.png) no-repeat center;
+    background-size:32px;
+    border:0;
+    width:32px;
+    height:32px;
+    text-indent:-999px;
+}
+.unmute-video {
+    background:url(http://cdn.flaticon.com/png/64/498.png) no-repeat center;
+    background-size:32px;
+}
