@@ -1,4 +1,4 @@
-    $("video").prop('muted', true);
+/*    $("video").prop('muted', true);
 
 $(".mute-video").click(function () {
     if ($("video").prop('muted')) {
@@ -10,4 +10,10 @@ $(".mute-video").click(function () {
         $(this).removeClass('unmute-video');
     }
     console.log($("video").prop('muted'))
-});
+}); */
+
+var vid = document.getElementById("mammisvideo");
+
+function enableMute() {
+    vid.muted = true;
+}

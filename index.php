@@ -2,7 +2,7 @@
 include ("navigation.php");
 ?>
 
-
+<script src="js/script.js"></script>
 
 <body>
 <div class="container-fluid full-width indexcontent">
@@ -11,7 +11,7 @@ include ("navigation.php");
         <source src="videos/mammismovieworking.mp4" type="video/mp4" id="myVideo">
         </video>
         
-        <button class="mute-video">toggle</button>  
+        <button class="mute-video" onclick="enableMute()">toggle</button>  
           
         <img src="images/aabningstider.jpg" alt="mammis gelatos åbningstider" class="col-lg-2 col-md-2 img-fluid" id="mammisaabning">
     </div>
