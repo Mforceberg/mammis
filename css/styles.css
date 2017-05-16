@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 
+
+/* Navigation styling */
 .navbar {
-    margin-bottom: 0;
+    margin:0;
     z-index:1;
 }
+
 
 .navigation
 {
@@ -30,31 +33,44 @@ ul.nav a
     margin-top: 4em;
     max-width: 60px;
 }
+/* End og Navigation styling */
 
 
-
-
+/* Index styling */
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 #mammisvideo
 {
-    overflow:hidden;
-    padding-top: -60px;
-    margin-top: -90px;
-    margin-bottom: -200px;
+    margin-top: -10%;
+    margin-bottom: -25%;
     z-index:-2;
 }
+#mammisAabning {
+    width:170%;
+    height:120%;
+    margin-left: -64.5%;
+    margin-top: -25.5%;
+    
+}
 
+.firstRow {
+    z-index: -2;
+}
 .container-fluid.full-width
 {
     padding: 0;
     padding-left: 0;
     padding-right: 0;
-    overflow-x: hidden;
+    overflow: hidden;
+    margin-top:-5%;
 }
-
 
 #muteButton {
    margin-left:0;
     margin-top: 0;
+    z-index: 2;
 }
 .mute-video {
     background:url(http://cdn.flaticon.com/png/64/60750.png) no-repeat center;
@@ -71,4 +87,29 @@ ul.nav a
     background-size:42px;
     border:0;
     z-index: 2;
+}
+
+/* End of Index Styling */
+
+/* Gelato Styling */
+.hOneRoboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.gelatoText {
+    font-family: avenir;
+    font-size: 130%;
+}
+
+.gelatoInText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    font-weight:450;
+}
+
+.neutralBackground {
+    background-color:#f3f3df;
+    width: 100%;
+    height: 100%;
 }

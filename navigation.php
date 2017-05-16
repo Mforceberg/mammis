@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mammis</title>
-
 
 <!--Bootstrap og css --> 
 <link href="http://localhost/styles.css" rel="stylesheet" type="text/css"/>
