@@ -107,10 +107,14 @@ body {
 
 /* End of Index Styling */
 
+
+
 /* Gelato Styling */
+
+
 .hOneRoboto {
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .gelatoText {
@@ -126,6 +130,66 @@ body {
 
 .neutralBackground {
     background-color:#f3f3df;
-    width: 100%;
-    height: 100%;
+    padding-bottom: 25vh;
+    margin-top: -1.5em;
+}
+
+#seksGode {
+    text-align: center;
+    background-color:#f490ac;
+    padding-bottom:20%;
+    padding-top:10%;
+    color:white;
+    margin-top: -2.5vh;
+    margin-left: -1.1em;
+    margin-right: -1.8em;
+}
+
+
+.seksGrunde {
+    text-align: center;
+    font-family: Avenir;
+}
+
+#mindreFedt {
+    background-color: #a8d2f0;
+    color:#fff097;
+    padding-top: 7.5vh;
+    padding-bottom: 10vh;
+
+}
+
+#mindreLuft {
+    background-color: #95ce8e;
+    color:#f490ac;
+    padding-top: 7.5vh;
+    padding-bottom: 10vh;
+}
+
+#faerreKalorier {
+    background-color: #fff097;
+    color:#a8d2f0;
+    padding-top: 7.5vh;
+    padding-bottom: 10vh;
+}
+
+#kunstigeFarvestoffer {
+    background-color: #fff097;
+    color:#a8d2f0;
+    padding-top: 7.5vh;
+    padding-bottom: 10vh;
+}
+
+#proteiner {
+    background-color: #f490ac;
+    color: white;
+    padding-top: 7.5vh;
+    padding-bottom: 10vh;
+}
+
+#godtHumoer {
+    background-color: #a8d2f0;
+    color:#fff097;
+    padding-top: 7.5vh;
+    padding-bottom: 10vh;
 }
