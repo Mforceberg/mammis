@@ -3,21 +3,21 @@ include ("navigation.php");
 ?>
 <html>
 <body>
+    
 <div class="full-width indexcontent">
-    <button class="mute-video" id="muteButton" onclick="enableMute();"></button>
+    <button class="mute-video hidden-xs" id="muteButton" onclick="enableMute();"></button>
           <div class="row">
-            <div class="col-lg-10 col-md-10 col-sm-10 firstRow">
-                <video id="mammisvideo" autoplay loop muted>
-                <source src="videos/mammismovieworking.mp4" type="video/mp4" id="myVideo">  
+            <div class="col-lg-12 col-md-12 col-sm-12 firstRow">
+                <video id="mammisvideo" class="col-xs-12 col-md-9 col-lg-9 col-sm-9" autoplay loop muted>
+                <source src="videos/mammismovie.mp4" type="video/mp4" id="myVideo">  
                 </video>    
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2">
-                <img src="images/aabningstider.jpg" alt="mammis gelatos åbningstider" id="mammisAabning" class="">
+                
+                <img src="images/aabningstider.jpg" alt="mammis gelatos åbningstider" id="mammisAabning" class="col-md-3 col-sm-3 col-lg-3 col-xs-12">
             </div>
             
         </div>
         <div class="row">
-                <img src="images/linjebillede.jpg" alt="billede af forskellige produkter ved mammis gelato" class="col-lg-12 col-md-12 img-fluid img-full-width">
+                <img src="images/linjebillede.jpg" alt="billede af forskellige produkter ved mammis gelato" id="indexBottom" class="col-lg-12 col-md-12 img-fluid img-full-width">
         </div>
 </div>
     

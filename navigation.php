@@ -15,11 +15,16 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-light active navigation">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
 	<a class="navbar-brand col-lg-1" href="index.php">
-		<img src="images/farvelogo.png" alt="Mammis Gelato Logo" id="mammislogo" style="height:80px">
+		<img src="images/farvelogo.png" alt="Mammis Gelato Logo" id="mammislogo">
 	</a>
-	
-	<div>
+    
+	<div class="collapse navbar-collapse">
 	 <ul class="nav navbar-nav navigation col-lg-5 col-lg-push-1" id="main-navigation">
 		 <li class="nav-item">
 			<a class="nav-link" href="gelato.php">Gelato</a>
@@ -37,7 +42,7 @@
 		 	<a class="nav-link" href="kontakt.php">Kontakt</a>
 		 </li> 
 	 </ul>
-	</div>
+	
     <a href="https://www.instagram.com/mammisgelato/">
     <img src="images/instagramicon.png" alt="instagram ikon" class="col-lg-push-5 col-lg-1 socikon">
     </a>
@@ -45,6 +50,7 @@
     <a href="https://www.facebook.com/Mammisgelato/">
     <img src="images/facebookicon.png" href="https://www.instagram.com/mammisgelato/" alt="facebook ikon" class="col-lg-push-5 col-lg-1 socikon">
     </a>
+        </div>
 </nav>
 <!-- /Navbar -->   
 

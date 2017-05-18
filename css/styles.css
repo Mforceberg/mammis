@@ -4,7 +4,6 @@
 /* Navigation styling */
 .navbar {
     margin:0;
-    z-index:1;
 }
 
 
@@ -18,62 +17,80 @@ ul.nav a
 {
     font-family: Avenir;
     font-weight: 200;
-    margin-top: 1.8em; 
+    margin-top: 1.4em; 
     text-decoration: none;
     color: #242424;
 }
 
 .nav-link
 {
-    font-size: 180%;
+    font-size: 1.5vw;
 }
 
 .socikon
 {
-    margin-top: 4em;
+    margin-top: 3.4em;
     max-width: 60px;
+}
+
+#mammislogo {
+    height: 4em;
+    margin-top: -0.5em;
 }
 /* End og Navigation styling */
 
 
+
+
 /* Index styling */
+
+
 body {
     overflow-x: hidden;
-    overflow-y: hidden;
+    
 }
 #mammisvideo
 {
-    margin-top: -10%;
-    margin-bottom: -25%;
-    z-index:-2;
+    z-index: -3;
+    padding-right: 0;
+    padding-left: 0;
 }
+
 #mammisAabning {
-    width:170%;
-    height:120%;
-    margin-left: -64.5%;
-    margin-top: -25.5%;
-    
+   padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    display:block;
 }
 
 .firstRow {
-    z-index: -2;
+    max-height: 85%;
+    margin-top: -4.7em;
 }
+
+#indexBottom{
+    height:12em;
+    margin:0;
+}
+
 .container-fluid.full-width
 {
     padding: 0;
     padding-left: 0;
     padding-right: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     margin-top:-5%;
+    position:fixed;
 }
 
 #muteButton {
-   margin-left:0;
+   margin-left:10px;
     margin-top: 0;
     z-index: 2;
+    position:relative;
 }
 .mute-video {
-    background:url(http://cdn.flaticon.com/png/64/60750.png) no-repeat center;
+    background:url(https://image.flaticon.com/icons/svg/148/148763.svg) no-repeat center;
     background-size:42px;
     border:0;
     width:42px;
@@ -82,8 +99,7 @@ body {
     z-index: 2;
 }
 .unmute-video {
-    background:url(http://cdn.flaticon.com/png/64/498.png) no-repeat center;
-    color:white;
+    background:url(https://image.flaticon.com/icons/svg/148/148759.svg) no-repeat center;
     background-size:42px;
     border:0;
     z-index: 2;
