@@ -193,3 +193,18 @@ body {
     padding-bottom: 10vh;
 }
 /* End of Gelato Styling */
+
+/* Start Produkt Styling */
+
+#produktTavle {
+    margin-top: -20px;
+}
+
+#stortProdukt {
+    padding:0;
+}
+
+#smaaProdukter {
+    padding:0;
+}
+/* End Produkt Styling */
