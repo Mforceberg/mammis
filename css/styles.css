@@ -114,7 +114,8 @@ body {
 
 .hOneRoboto {
     font-family: 'Roboto', sans-serif;
-    font-weight: 800;
+    font-weight: 300;
+    text-align:center;
 }
 
 .gelatoText {
@@ -140,14 +141,24 @@ body {
     padding-bottom:20%;
     padding-top:10%;
     color:white;
-    margin-top: -2.5vh;
-    margin-left: -1.1em;
-    margin-right: -1.8em;
+}
+
+.seksGodeGrunde {
+    background-color:#f3f3df;
+    padding-top:2vh;
+    padding-left: 2vh;
+    padding-right:2vh;
+    padding-bottom: 1vh;
+    margin-top: -2.8vh;
+    margin-right: -2vh;
+    margin-left: -2vh;
 }
 
 .seksGrunde {
     text-align: center;
     font-family: Avenir;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 #mindreFedt {
@@ -200,11 +211,8 @@ body {
     margin-top: -20px;
 }
 
-#stortProdukt {
-    padding:0;
-}
-
-#smaaProdukter {
-    padding:0;
+.underBilleder {
+    background-color:#f3f3df;
+    padding:10px;
 }
 /* End Produkt Styling */

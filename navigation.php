@@ -49,7 +49,7 @@
     </a>
     
     <a href="https://www.facebook.com/Mammisgelato/">
-    <img src="images/facebookicon.png" href="https://www.instagram.com/mammisgelato/" alt="facebook ikon" class="col-lg-push-5 col-lg-1 socikon">
+    <img src="images/facebookicon.png" alt="facebook ikon" class="col-lg-push-5 col-lg-1 socikon">
     </a>
 </nav>
 <!-- /Navbar -->   

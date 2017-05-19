@@ -1,5 +1,6 @@
-<!-- Includes the navigation -->
+<!doctype html>
 
+<!-- Includes the navigation -->
 <?php
 include ("navigation.php");
 ?>
