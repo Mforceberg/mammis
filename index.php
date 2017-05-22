@@ -4,7 +4,7 @@
 <?php
 include ("navigation.php");
 ?>
-<html>
+<html lang="da">
 <body>
     
     <!-- Container that fills the whole page -->
@@ -21,7 +21,7 @@ include ("navigation.php");
                 </video>    
                 
                 <!-- Image of opening times -->
-                <img src="images/aabningstider.jpg" alt="mammis gelatos åbningstider" id="mammisAabning" class="col-md-3 col-sm-3 col-lg-3 col-xs-12">
+                <img src="images/aabningstider.jpg" alt="mammis gelatos åbningstider og studierabat" id="mammisAabning" class="col-md-3 col-sm-3 col-lg-3 col-xs-12">
             </div>
             
         </div>

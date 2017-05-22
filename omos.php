@@ -1,6 +1,10 @@
+<!doctype html>
+
 <?php
 include ("navigation.php");
 ?>
+<html lang="da">
+<body>
 
 <div class="container-fluid fill-width">
     <div class="omosContent">
@@ -16,3 +20,5 @@ include ("navigation.php");
         </div>
     </div>
 </div>
+    </body>
+</html>

@@ -1,7 +1,11 @@
+<!doctype html>
+
 <?php
 include ("navigation.php");
 ?>
 
+<html lang="da">
+<body>
 <div class="full-width">
     <div class="col-md-6 col-lg-6 col-sm-6 neutralBackground">
         
@@ -24,3 +28,5 @@ include ("navigation.php");
         </div>
     </div>
 </div>
+</body>
+</html>
