@@ -4,14 +4,21 @@
 include ("navigation.php");
 ?>
 <html lang="da">
+    <head>
+        <title>Mammis Gelato | Lækker Italiensk Gelato</title>
+        <meta name="description" content="Mammis Gelato tilbyder hjemmelavet italiensk gelato med en kraftfuld og fyldig smag.">
+    </head>
 <body>
 <div class="full-width">
     <div class="col-md-6 col-lg-6 col-sm-6 neutralBackground">
         
+        <!-- Overskrift til venstre side -->
         <h1 class="hOneRoboto">Hvad er gelato</h1>
         <br>
         <br>
         <br>
+        
+        <!-- Tekst til venstre side -->
         <div class="col-md-9 col-lg-9 col-sm-9">
         <p class="gelatoText">Gelato Stammer Fra <span class="gelatoInText">Italien</span></p>
         <br>
@@ -28,11 +35,16 @@ include ("navigation.php");
     
     
     <div class="col-md-6 col-lg-6 col-sm-6">
+        
+        <!-- Indeholder elementer til hoejre side -->
         <div class="seksGodeGrunde">
             <div id="seksGode">
+                
+                <!-- overskrift til hoejre side -->
                 <h1 class="hOneRoboto col-md-12 col-lg-12 col-sm-12 col-xs-12" id="seksGodeTekst">6 GODE GRUNDE TIL AT SPISE GELATO</h1>
             </div>
 
+            <!-- underelementer til hoejre side -->
             <div class="seksGrunde">
                 <div class="row">
                     <div class="col-md-4 col-lg-4 col-sm-4" id="mindreFedt">

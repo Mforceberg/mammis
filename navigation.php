@@ -3,15 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mammis</title>
+<title>Mammis Gelato | Lækker Italiensk Gelato</title>
 
 <!--Bootstrap og css --> 
 <link href="http://localhost/styles.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="css/styles.css" type="text/css" />
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-       
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -23,7 +25,7 @@
 	</a>
     
     
-    <!-- Navbar -->
+    <!-- Forskellige navigations elementer i en liste -->
 	 <ul class="nav navbar-nav navigation col-lg-5 col-lg-push-1" id="main-navigation">
 		 <li class="nav-item">
 			<a class="nav-link" href="gelato.php">Gelato</a>
@@ -43,13 +45,13 @@
 	 </ul>
 	
         
-    <!-- Links and icons for social media -->
+    <!-- Links og ikoner til sociale medier -->
     <a href="https://www.instagram.com/mammisgelato/">
-    <img src="images/instagramicon.png" alt="instagram ikon" class="col-lg-push-5 col-lg-1 socikon">
+    <img src="images/instagramicon.png" alt="instagram ikon med link til Mammis Gelatos Instagram" class="col-lg-push-5 col-lg-1 socikon">
     </a>
     
     <a href="https://www.facebook.com/Mammisgelato/">
-    <img src="images/facebookicon.png" alt="facebook ikon" class="col-lg-push-5 col-lg-1 socikon">
+    <img src="images/facebookicon.png" alt="facebook ikon med link til Mammis Gelatos Facebook" class="col-lg-push-5 col-lg-1 socikon">
     </a>
 </nav>
 <!-- /Navbar -->   
