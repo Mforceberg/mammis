@@ -34,8 +34,19 @@ include ("navigation.php");
         <br>
         <br>
             
-        <!-- tekst til venstre side slutter her -->
-            
+        <!-- tekst til venstre side slutter her -->  
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-lg-6 col-sm-6">
+        <div class="row">
+        <img src="images/latiner.jpg" alt="Latiner Festival 28. maj, i latiner kvarteret Aarhus" class="col-sm-6 col-md-6 col-lg-g">
+        <img src="images/food.jpg" alt="Food Festival 1 september til 3 september, tangkrogen Aarhus" class="col-sm-6 col-md-6 col-lg-g">
+        </div>
+        
+        <div class="row bottomImagesAktuelt">
+        <img src="images/festuge.jpg" alt="Aarhus festuge 25 august til 3 september, latinerkvarteret Aarhus" class="col-sm-6 col-md-6 col-lg-g">
+        <img src="images/northside.jpg" alt="Northside 9 juni til 11 juni på Northside festival i Aarhus" class="col-sm-6 col-md-6 col-lg-g">
         </div>
     </div>
 </div>
