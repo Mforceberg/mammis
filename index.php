@@ -11,7 +11,7 @@ include ("navigation.php");
 <div class="full-width indexcontent">
     
     <!-- Button to mute video -->
-    <button class="mute-video hidden-xs" id="muteButton" onclick="enableMute();"></button>
+    <button class="mute-video" id="muteButton" onclick="enableMute();"></button>
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 firstRow">
                 

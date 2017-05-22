@@ -1,5 +1,5 @@
 var vid = document.getElementById("mammisvideo");
-var buttonClasses = document.getElementById("muteButton");
+
 
 function enableMute() {
  if (vid.muted === true) {

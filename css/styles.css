@@ -216,3 +216,14 @@ body {
     padding:10px;
 }
 /* End Produkt Styling */
+
+/* Start Om os Styling */
+.omosContent {
+    height:92vh;
+    width:auto;
+    background-color:#f3f3df;
+    margin:-20px;
+    padding:1vw;
+}
+
+/* End Om os Styling */
