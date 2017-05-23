@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 
+@font-face {
+font-family: 'Avenir Next LT Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Regular'), url('AvenirNextLTPro-Regular.woff') format('woff');
+}
+
 
 /* Navigation styling */
 .navbar {
@@ -15,7 +22,7 @@
 
 ul.nav a 
 {
-    font-family: Avenir;
+    font-family: 'Avenir Next LT Pro Regular';
     font-weight: 200;
     margin-top: 1.4em; 
     text-decoration: none;
@@ -123,7 +130,7 @@ body {
 }
 
 .gelatoText {
-    font-family: avenir;
+    font-family: 'Avenir Next LT Pro Regular';
     font-size: 130%;
 }
 
@@ -158,7 +165,7 @@ body {
 
 .seksGrunde {
     text-align: center;
-    font-family: Avenir;
+    font-family: 'Avenir Next LT Pro Regular';
     margin-right: 1em;
     margin-left: 1em;
 }
