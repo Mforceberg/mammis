@@ -13,6 +13,3 @@ function enableMute() {
  }
     document.getElementById("muteButton").classList.toggle("unmute-video");
 }
-
-
-
