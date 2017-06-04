@@ -19,14 +19,22 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-light active navigation">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     
 	<a class="navbar-brand col-lg-1" href="index.php">
 		<img src="images/farvelogo.png" alt="Mammis Gelato Logo" id="mammislogo">
 	</a>
-    
+    </div>
     
     <!-- Forskellige navigations elementer i en liste -->
-	 <ul class="nav navbar-nav navigation col-lg-5 col-lg-push-1" id="main-navigation">
+    
+    <div class="collapse navbar-collapse" id="main-navigation">
+	 <ul class="nav navbar-nav navigation col-lg-5 col-lg-push-1 col-md-6 col-md-push-1">
 		 <li class="nav-item">
 			<a class="nav-link" href="gelato.php">Gelato</a>
 		 </li>
@@ -43,8 +51,8 @@
 		 	<a class="nav-link" href="kontakt.php">Kontakt</a>
 		 </li> 
 	 </ul>
-	
         
+    
     <!-- Links og ikoner til sociale medier -->
     <a href="https://www.instagram.com/mammisgelato/">
     <img src="images/instagramicon.png" alt="instagram ikon med link til Mammis Gelatos Instagram" class="col-lg-push-5 col-lg-1 socikon">
@@ -53,6 +61,10 @@
     <a href="https://www.facebook.com/Mammisgelato/">
     <img src="images/facebookicon.png" alt="facebook ikon med link til Mammis Gelatos Facebook" class="col-lg-push-5 col-lg-1 socikon">
     </a>
+    </div>
 </nav>
 <!-- /Navbar -->   
 
+    
+ 
+ 
